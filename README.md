@@ -1,37 +1,37 @@
 # vscode-translate
 
-[![Current Version](http://vsmarketplacebadge.apphb.com/version/chun.vscode-translate.svg)](https://marketplace.visualstudio.com/items?itemName=chun.vscode-translate)
-[![Install Count](http://vsmarketplacebadge.apphb.com/installs/chun.vscode-translate.svg)](https://marketplace.visualstudio.com/items?itemName=chun.vscode-translate)
-[![Open Issues](http://vsmarketplacebadge.apphb.com/rating/chun.vscode-translate.svg)](https://marketplace.visualstudio.com/items?itemName=chun.vscode-translate)
+[![Current Version](https://vsmarketplacebadge.apphb.com/version/chun.vscode-translate.svg)](https://marketplace.visualstudio.com/items?itemName=chun.vscode-translate)
+[![Install Count](https://vsmarketplacebadge.apphb.com/installs/chun.vscode-translate.svg)](https://marketplace.visualstudio.com/items?itemName=chun.vscode-translate)
+[![Open Issues](https://vsmarketplacebadge.apphb.com/rating/chun.vscode-translate.svg)](https://marketplace.visualstudio.com/items?itemName=chun.vscode-translate)
 
-## Translate languages.
-<br />
-press CTRL + t to turn on the translate then u can select the text and see the change of statusBar.
-press CTRL + t to turn off the function. <br />
+## 语言翻译
 
-### It looks like:
+按 CTRL + t to 打开翻译 then u can select the text and see the change of statusBar.
+press CTRL + t to turn off the function.
+
+### 似乎
 
 ![](https://raw.githubusercontent.com/jianzhichun/vscode-translate/master/img/translate_show.gif)
 
-#### it will read http.proxy at user-settings to get data by proxy. 
+* it will read http.proxy at user-settings to get data by proxy
 
-#### and you can set the user-settings to change from language and target language. 
+* and you can set the user-settings to change from language and target language
 
-#### as for translation.api only google&baidu provided (default is baidu)
+* as for translation.api only google and baidu provided (default is baidu)
 
-#### translation.languageDetection = true means do detection before language so that we could translate documents between from language and target language. (default is true) 
+* translation.languageDetection = true means do detection before language so that we could translate documents between from language and target language. (default is true)
 
 ![](https://raw.githubusercontent.com/jianzhichun/vscode-translate/master/img/config.png)
 
-### And you can press CTRL+SHIFT+R to replace selected-text to result after translation.
+### 按住 CTRL+SHIFT+R 替换选择文本为翻译结果
 
 ![](https://raw.githubusercontent.com/jianzhichun/vscode-translate/master/img/replace_show.gif)
 
-## Language List (from google)
+## 语言列表 (来源 google)
 
-You can see [https://cloud.google.com/translate/docs/languages](https://cloud.google.com/translate/docs/languages)
+你可以看 [https://cloud.google.com/translate/docs/languages](https://cloud.google.com/translate/docs/languages)
 
-| Language        | ISO-639-1 Code  
+| Language        | ISO-639-1 Code
 | ------------- |:-------------: |
 | Afrikaans | af |
 | Albanian | sq |
@@ -137,31 +137,3 @@ You can see [https://cloud.google.com/translate/docs/languages](https://cloud.go
 | Yiddish | yi |
 | Yoruba | yo |
 | Zulu | zu |
-
-
-## Contribution.
-
-[https://github.com/jianzhichun/vscode-translate](https://github.com/jianzhichun/vscode-translate)
-
-## Thanks
-
-[Jesse-Deng](https://github.com/Jesse-Deng)
-
-**Enjoy!**
-
-### 2016/8/28
-    init 0.0.1
-### 2016/8/29
-    init 0.0.2 add proxy support 
-### 2016/8/29
-    update README.md
-### 2017/3/4 
-    update to 0.0.4
-    add others translation support
-    add replace support
-### 2017/3/4
-    update to 0.0.5
-    add google translation optional
-### 2017/3/9
-    update to 0.1.0
-    add language detection support

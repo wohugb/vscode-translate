@@ -39,13 +39,13 @@ function activate(context) {
     // Use the console to output diagnostic information (console.log) and errors (console.error)
     // This line of code will only be executed once when your extension is activated
     context.subscriptions.push(new Translate());
-    context.subscriptions.push(vscode_1.commands.registerCommand('extension.translateon', () => {
+    context.subscriptions.push(vscode_1.commands.registerCommand('extension.translate', () => {
         if (!isActive) {
-            vscode_1.window.showInformationMessage('Translate on!');
+            vscode_1.window.showInformationMessage('打开翻译');
             isActive = true;
         }
         else {
-            vscode_1.window.showInformationMessage('Translate off!');
+            vscode_1.window.showInformationMessage('关闭翻译');
             isActive = false;
         }
     }));

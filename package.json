@@ -1,10 +1,10 @@
 {
   "name": "vscode-translate",
-  "displayName": "translate",
-  "description": "A vscode extension for translation",
-  "version": "0.1.0",
+  "displayName": "翻译",
+  "description": "vscode翻译插件",
+  "version": "1.0.0",
   "license": "SEE LICENSE IN LICENSE.md",
-  "publisher": "chun",
+  "publisher": "Nosy",
   "engines": {
     "vscode": "^1.0.0"
   },
@@ -19,7 +19,7 @@
   "contributes": {
     "keybindings": [
       {
-        "command": "extension.translateon",
+        "command": "extension.translation",
         "key": "ctrl+t",
         "mac": "cmd+t",
         "when": "editorTextFocus"
@@ -33,27 +33,27 @@
     ],
     "configuration": {
       "type": "object",
-      "title": "translation configuration",
+      "title": "翻译配置",
       "properties": {
         "translation.api": {
           "type": "string",
-          "default": "baidu",
-          "description": "api for translation"
+          "default": "google",
+          "description": "翻译接口"
         },
         "translation.fromLanguage": {
           "type": "string",
           "default": "",
-          "description": "from language"
+          "description": "源语言"
         },
         "translation.targetLanguage": {
           "type": "string",
           "default": "",
-          "description": "target language"
+          "description": "标语言"
         },
         "translation.languageDetection":{
           "type": "boolean",
           "default": true,
-          "description": "language detection"
+          "description": "语言检测"
         }
       }
     }

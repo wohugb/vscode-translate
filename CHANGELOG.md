@@ -1,7 +1,5 @@
-# Change Log
-All notable changes to the "vscode-translate" extension will be documented in this file.
+# 更新日志
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 支线版本
 
-## [Unreleased]
-- Initial release
+作者好久没更新了，准备改成默认谷歌
