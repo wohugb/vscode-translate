@@ -4,6 +4,10 @@
 [![Install Count](https://vsmarketplacebadge.apphb.com/installs/chun.vscode-translate.svg)](https://marketplace.visualstudio.com/items?itemName=chun.vscode-translate)
 [![Open Issues](https://vsmarketplacebadge.apphb.com/rating/chun.vscode-translate.svg)](https://marketplace.visualstudio.com/items?itemName=chun.vscode-translate)
 
+## 安装插件
+
+插件->从VSIX安装->选择vscode-translate-1.0.0.vsix
+
 ## 快捷键设置
 
 首选项->键盘快捷方式->搜索 `translate`
