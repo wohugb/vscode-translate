@@ -4,22 +4,26 @@
 [![Install Count](https://vsmarketplacebadge.apphb.com/installs/chun.vscode-translate.svg)](https://marketplace.visualstudio.com/items?itemName=chun.vscode-translate)
 [![Open Issues](https://vsmarketplacebadge.apphb.com/rating/chun.vscode-translate.svg)](https://marketplace.visualstudio.com/items?itemName=chun.vscode-translate)
 
+## 快捷键设置
+
+首选项->键盘快捷方式->搜索 `translate`
+
+* extension.translate  Ctrl+t
+* extension.translateReplace Ctrl+Shift+r
+* 
 ## 语言翻译
 
-按 CTRL + t to 打开翻译 then u can select the text and see the change of statusBar.
-press CTRL + t to turn off the function.
+按 CTRL + t 打开翻译 那么你可以选择文本并查看statusBar的更改。
+按 CTRL + t 关闭该功能。
 
 ### 似乎
 
 ![](https://raw.githubusercontent.com/jianzhichun/vscode-translate/master/img/translate_show.gif)
 
-* it will read http.proxy at user-settings to get data by proxy
-
-* and you can set the user-settings to change from language and target language
-
-* as for translation.api only google and baidu provided (default is baidu)
-
-* translation.languageDetection = true means do detection before language so that we could translate documents between from language and target language. (default is true)
+* 它会在用户设置中读取http.proxy以通过代理获取数据
+* 您可以设置用户设置以改变语言和目标语言
+* 至于translation.api只有谷歌和百度提供（默认是百度）
+* translation.languageDetection = true表示在语言之前进行检测，以便我们可以在语言和目标语言之间翻译文档。 ,（默认为true）
 
 ![](https://raw.githubusercontent.com/jianzhichun/vscode-translate/master/img/config.png)
 
